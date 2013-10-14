@@ -16,7 +16,7 @@ tags: [github, git, jekyll, jekyll-bootstrap]
 但是如果想要在本地调试的话，这个就有必要了。
 ubuntu上的安装步骤如下。
 
-	$ sudo apt-get install rubygems1.8 rake
+	$ sudo apt-get install rubygems rake
 	$ sudo gem install jekyll
 
 ## 2. 博客搭建步骤
@@ -55,7 +55,7 @@ ubuntu上的安装步骤如下。
     $ git add .
     $ git commit -m "first post"
     $ git remote add origin git@github.com:USERNAME/myblog.git
-    $ git push origin master
+    $ git push origin gh-pages
 
 1.2.3. 过几分钟访问地址http://USERNAME.github.io/myblog 即可。
 
