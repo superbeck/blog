@@ -26,6 +26,17 @@ tagline: java, web, 移动
     </section>
 
     <section>
+    {% unless site.tags == empty %}
+    <h3>TAG</h3>
+    <ul class="tag_box">
+      {% assign tags_list = site.tags %}
+      {% include JB/tags_list %}
+    </ul>
+    {% endunless %}
+
+    </section>
+
+    <section>
     <h3>友情链接</h3>
     <ul class="friendlink">
         <li><p><a href="http://justjavac.iteye.com" target="_blank" rel="me">justjavac(iteye)</a></p></li>
