@@ -20,7 +20,7 @@ ubuntu上的安装步骤如下。
 	$ sudo gem install jekyll
 
 ## 2. 博客搭建步骤
-在github上搭建博客有两种。一种是直接创建名为USERNAME.github.com的工程，这样搭建出来的博客是你个人的专属博客，可以直接访问网址http://USERNAME.github.com。另外一种是搭建任意工程如名为myblog，那么访问的网址是http://USERNAME.github.com/myblog。
+在github上搭建博客有两种。一种是直接创建名为USERNAME.github.com的工程，这样搭建出来的博客是你个人的专属博客，可以直接访问网址http://USERNAME.github.com。另外一种是搭建任意工程如名为myblog，那么访问的网址是http://USERNAME.github.io/myblog。
 
 ### 1.1. 搭建个人专属博客步骤
 
